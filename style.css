@@ -45,6 +45,22 @@ main {
 }
 
 .header__logo {
-height: 15px;
+height: 40px;
 margin-left: 15px;
+}
+
+.header__search-input {
+    margin-left: 80px;
+}
+
+.videos-section {
+display: grid;
+padding: 5px;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-gap: 5px;
+}
+
+.videos-section__video {
+    height: 200px;
+    background-color: aqua;
 }
