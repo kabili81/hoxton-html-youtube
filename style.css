@@ -50,7 +50,13 @@ margin-left: 15px;
 }
 
 .header__search-input {
-    margin-left: 80px;
+    margin-left: 100px;
+}
+
+.header__search {
+    background-color: white;
+    margin-left: 0;
+    
 }
 
 .videos-section {
