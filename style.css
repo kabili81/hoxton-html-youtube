@@ -44,10 +44,6 @@ main {
     height: 100px;
 }
 
-.header__burger {
-height: 25px;
-}
-
 .header__logo {
 height: 15px;
 margin-left: 15px;
