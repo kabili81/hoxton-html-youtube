@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-height: 60px;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template: 
+    'header header' var(--header-height)
+    'sidebar main' 1fr /
+     250px 1fr;
+}
+
+header {
+    background-color: yellow;
+    height: var(--header-height);
+    grid-area: header;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: start;
+
+}
+
+aside {
+    background-color: blue;
+    grid-area: sidebar;
+
+}
+
+main {
+    background-color: blueviolet;
+    grid-area: main;
+}
+
+.tag-bar {
+    background-color: brown;
+    height: 100px;
+}
+
+.heder__burger {
+height: 25px;
+}
+
