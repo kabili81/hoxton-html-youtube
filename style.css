@@ -18,9 +18,9 @@ body {
 }
 
 header {
-    background-color: yellow;
     height: var(--header-height);
     grid-area: header;
+    padding: 10px;
     display: grid;
     grid-auto-flow: column;
     align-items: center;
