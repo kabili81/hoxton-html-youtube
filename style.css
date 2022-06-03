@@ -56,7 +56,10 @@ margin-left: 15px;
 .header__search {
     background-color: white;
     margin-left: 0;
-    
+    width: 20px;
+    height: 20px;
+    box-shadow: ;
+
 }
 
 .videos-section {
