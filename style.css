@@ -70,7 +70,7 @@ header .material-symbols-outlined {
 .header-middle__menu {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr auto ;
     gap: 10px;
     
 }
@@ -82,7 +82,7 @@ header .material-symbols-outlined {
 }
 
 .header__keyboard_voice {
-    padding: 5px;
+    padding: 2px;
     
 }
 
@@ -98,6 +98,23 @@ header .material-symbols-outlined {
     justify-content: end;
     align-items: center;
     padding-right: 10px;
+}
+
+.header-form:hover {
+    background-color: #f9f9f9;
+}
+.header-right__menu a {
+    text-decoration: none;
+}
+.header-form {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 5px;
+    color: royalblue;
+    font-family: sans-serif;
+    border: 2px solid royalblue;
+    padding: 5px;
 }
 
 aside {
