@@ -12,19 +12,18 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template: 
-    'header header' var(--header-height)
+    'header header' auto
     'sidebar main' 1fr /
      250px 1fr;
 }
 
 header {
-    height: var(--header-height);
+   
     grid-area: header;
     padding: 10px;
     display: grid;
     grid-auto-flow: column;
-    align-items: center;
-    justify-content: start;
+   
 
 }
 
