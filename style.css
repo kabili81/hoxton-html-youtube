@@ -43,7 +43,7 @@ header .material-symbols-outlined {
 }
 
 .header__search-input {
-    width: 60%;
+    width: 85%;
     height: 30px;
     border: 1px solid gray;
     border-top-left-radius: 5px;
@@ -58,29 +58,32 @@ header .material-symbols-outlined {
 }
 
 .header__search button {
-    width: 100%;
+    width: 92%;
     display: grid;
     place-items: center;
     border: 1px solid gray;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    align-items: center;
 }
 
 .header-middle__menu {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr auto;
+    gap: 10px;
     
-    align-items: center;
 }
 
 .header-middle__menu a {
     text-decoration: none;
     color: #575757;
+    
 }
 
 .header__keyboard_voice {
     padding: 5px;
+    
 }
 
 .header__keyboard_voice:hover {
