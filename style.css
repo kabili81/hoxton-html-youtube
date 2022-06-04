@@ -89,6 +89,15 @@ header .material-symbols-outlined {
     clip-path: circle();
 }
 
+.header-right__menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
+
 aside {
     grid-area: sidebar;
 
