@@ -117,10 +117,127 @@ header .material-symbols-outlined {
     padding: 5px;
 }
 
-aside {
-    grid-area: sidebar;
-
+.fa-solid {
+    font-size: 25px;
 }
+
+.sidebar {
+    grid-area: sidebar;
+    display: grid;
+    grid-template: 
+    "sidebar__first__row" 150px
+    "sidebar__second__row" 100px
+    "sidebar__third__row" 150px
+    "sidebar__fourth__row" 1fr;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar__first__row {
+    grid-area: sidebar__first__row;
+    display: grid;
+    border-bottom: 1px solid grey;
+}
+
+.sidebar__first__row__home {
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 20px;
+    align-items: center;
+    gap: 30px;
+    justify-content: start;
+}
+
+.sidebar__first__row__explore {
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 20px;
+    align-items: center;
+    gap: 30px;
+    justify-content: start;
+  }
+
+  .sidebar__first__row__subscriptions {
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 20px;
+    align-items: center;
+    gap: 30px;
+    justify-content: start;
+    margin-bottom: 10px;
+  }
+
+  .sidebar__second__row {
+      grid-area: sidebar__second__row;
+      border-bottom: 1px solid grey;
+      display: grid;
+  }
+
+  .sidebar__second__row__library {
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 20px;
+    align-items: center;
+    gap: 30px;
+    justify-content: start;
+  }
+  .sidebar__second__row__history {
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 20px;
+    align-items: center;
+    gap: 30px;
+    justify-content: start;
+    margin-bottom: 5px;
+  }
+
+  .sidebar__third__row {
+      display: grid;
+      grid-area: sidebar__third__row;
+      border-bottom: 1px solid grey;
+      padding: 30px;
+      gap: 10px;
+  }
+
+  .sidebar__third__row p {
+      font-size: 1.1rem;
+  }
+
+  .sidebar__form {
+    display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  color: royalblue;
+  font-family: sans-serif;
+  border: 2px solid royalblue;
+  padding: 10px;
+  margin-right: 120px;  
+  }
+
+  .sidebar__fourth__row {
+    grid-area: sidebar__fourth__row;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(auto);
+    padding: 20px;
+  }
+
+  .sidebar__fourth__row h3{
+    color: grey;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+  }
+
+  .sidebar__fourth__row__items {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 20px;
+  }
 
 main {
     background-color: blueviolet;
