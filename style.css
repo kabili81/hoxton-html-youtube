@@ -8,8 +8,8 @@
 :root {
     --header-height: 60px;
     --video-tile-height: 285px;
-  --video-tile-width: 335px;
-  --video-section-background-color: rgb(249, 249, 249);
+    --video-tile-width: 335px;
+    --video-section-background-color: rgb(249, 249, 249);
 }
 
 body {
@@ -32,8 +32,7 @@ header {
     padding: 10px;
     display: grid;
     grid-auto-flow: column;
-    align-items: center;
-    justify-content: start;
+   
 
 }
 
